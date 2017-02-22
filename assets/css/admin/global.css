@@ -1,0 +1,290 @@
+@import url(admin.css);
+
+.colorgraph {
+  height: 10px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+.colorgraph2 {
+  height: 5px;
+  margin-top:-0px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.btn-bitcoin {
+  color: #fff;
+   background-color: #d6ac59;
+  
+}
+
+.btn-bitcoin:hover,
+.btn-bitcoin:focus,
+.btn-bitcoin:active,
+.btn-bitcoin.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-liqpay {
+  color: #fff;
+   background-color: #63a900;
+  
+}
+
+.btn-liqpay:hover,
+.btn-liqpay:focus,
+.btn-liqpay:active,
+.btn-liqpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-ukash {
+  color: #fff;
+   background-color: #a4181d;
+  
+}
+
+.btn-ukash:hover,
+.btn-ukash:focus,
+.btn-ukash:active,
+.btn-ukash.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-solidtrustpay {
+  color: #fff;
+   background-color: #46698e;
+  
+}
+
+.btn-solidtrustpay:hover,
+.btn-solidtrustpay:focus,
+.btn-solidtrustpay:active,
+.btn-solidtrustpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-onecard {
+  color: #fff;
+   background-color: #004c7b;
+  
+}
+
+.btn-onecard:hover,
+.btn-onecard:focus,
+.btn-onecard:active,
+.btn-onecard.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-cashu {
+  color: #fff;
+   background-color: #e9510e;
+  
+}
+
+.btn-cashu:hover,
+.btn-cashu:focus,
+.btn-cashu:active,
+.btn-cashu.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-neteller {
+  color: #fff;
+   background-color: #6a9439;
+  
+}
+
+.btn-neteller:hover,
+.btn-neteller:focus,
+.btn-neteller:active,
+.btn-neteller.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+
+.btn-skrill {
+  color: #fff;
+   background-color: #852064;
+  
+}
+
+.btn-skrill:hover,
+.btn-skrill:focus,
+.btn-skrill:active,
+.btn-skrill.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-paypal {
+  color: #fff;
+   background-color: #00335e;
+  
+}
+
+.btn-paypal:hover,
+.btn-paypal:focus,
+.btn-paypal:active,
+.btn-paypal.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-wiretransfer {
+  color: #fff;
+   background-color: #3c60a7;
+  
+}
+
+.btn-wiretransfer:hover,
+.btn-wiretransfer:focus,
+.btn-wiretransfer:active,
+.btn-wiretransfer.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-xpressmoney {
+  color: #fff;
+   background-color: #bf2e1b;
+  
+}
+
+.btn-xpressmoney:hover,
+.btn-xpressmoney:focus,
+.btn-xpressmoney:active,
+.btn-xpressmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-moneygram {
+  color: #fff;
+   background-color: #ee2c23;
+  
+}
+
+.btn-moneygram:hover,
+.btn-moneygram:focus,
+.btn-moneygram:active,
+.btn-moneygram.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-westernunion {
+  color: #fff;
+   background-color: #ffdd00;
+  
+}
+
+.btn-westernunion:hover,
+.btn-westernunion:focus,
+.btn-westernunion:active,
+.btn-westernunion.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-payza {
+  color: #fff;
+   background-color: #43a22e;
+  
+}
+
+.btn-payza:hover,
+.btn-payza:focus,
+.btn-payza:active,
+.btn-payza.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-perfectmoney {
+  color: #fff;
+   background-color: #eb2d2d  ;
+  
+}
+
+.btn-perfectmoney:hover,
+.btn-perfectmoney:focus,
+.btn-perfectmoney:active,
+.btn-perfectmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-okpay {
+  color: #fff;
+   background-color: #f9ba14;
+  
+}
+
+.btn-okpay:hover,
+.btn-okpay:focus,
+.btn-okpay:active,
+.btn-okpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-egopay {
+  color: #fff;
+   background-color: #ee9f12;
+  
+}
+
+.btn-egopay:hover,
+.btn-egopay:focus,
+.btn-egopay:active,
+.btn-egopay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-webmoney {
+  color: #fff;
+   background-color: #428dd2;
+  
+}
+
+.btn-webmoney:hover,
+.btn-webmoney:focus,
+.btn-webmoney:active,
+.btn-webmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}

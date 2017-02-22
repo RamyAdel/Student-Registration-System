@@ -1,0 +1,1065 @@
+@media screen
+{
+    .noPrint{}
+    .noScreen{display:none;}
+    .Screen{}
+}
+
+@media print
+{
+    .noPrint{display:none;}
+    .noScreen{}
+    .Screen{display:none;}
+	
+}
+
+
+body {
+	background: #fafafa;
+
+	color:#656565;
+	font-size:18px;
+}
+
+
+.home-btn{
+	height: 22px;
+	width: 125px;
+he
+}
+
+.btn-sp{
+
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+.tab-pane{
+		background: #FFF;
+		border-left:1px solid #ddd;
+		border-right:1px solid #ddd;
+		border-bottom:1px solid #ddd;
+		padding: 0.8em;
+}
+
+.nav-tabs li a
+{
+	color:#afbeff;
+}
+
+.nav-tabs > li.active a
+{
+	color:#428bca;
+}
+.nav-tabs > li > a:hover {
+	background: #666;
+}
+
+.row{
+	padding:2px;
+	margin:2px;
+}
+
+.glyphicon {
+	color:#afbeff;
+
+}
+
+.active .glyphicon {
+	color:#428bca;
+
+}
+
+.caption{
+color:#428bca;
+font-weight:bold;
+font-size:1.2em;
+}
+
+.stocks{
+
+	background-color: #FFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding:10px;
+	margin-bottom:15px;
+  min-width: 524px;
+}
+
+//this is custom css file
+
+
+.stock-view{
+}
+
+ul.gateway-left{
+	padding:0;
+	margin:0;
+	float:left;}
+
+ul.gateway-right li,ul.gateway-left li{list-style:none;padding:0 0 0 5px;margin:0;line-height:35px;position:relative;}
+ul.gateway-left .hover,ul.gateway-left li:hover{background:#afbeff;cursor:default;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+ul.gateway-right li:hover{background:#f5e0ff;cursor:default;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+ul.gateway-left .hover:after{left:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
+ul.gateway-left .hover:after{border-color:rgba(136,183,213,0);border-left-color:#afbeff;border-width:12px;top:50%;margin-top:-12px;}
+ul.gateway-right li span.amount,ul.gateway-left li span.amount{padding:0 17px 0 0;width:60px;text-align:center;font-weight:bold;display:inline-block;}
+ul.gateway-left li span.amount{margin-left: 6px;}
+ul.gateway-right li span.balance{font-weight:normal;float:right;padding-right: 5px;}
+ul.gateway-right li span.balance .currency{font-weight:bold;}
+ul.gateway-right{float:left;margin:0;padding:0 0 0 20px;display:none;}
+ul.gateway-right li span.gate-alfa,ul.gateway-left li span.gate-alfa,ul.gateway-right li span.gate-alfabank,ul.gateway-left li span.gate-alfabank,ul.gateway-right li span.gate-egopay,ul.gateway-left li span.gate-egopay,ul.gateway-right li span.gate-rubank,ul.gateway-left li span.gate-rubank,ul.gateway-right li span.gate-wire,ul.gateway-left li span.gate-wire,ul.gateway-right li span.gate-perfectmoney,ul.gateway-left li span.gate-perfectmoney,ul.gateway-right li span.gate-bitcoin,ul.gateway-left li span.gate-bitcoin,ul.gateway-right li span.gate-yandex,ul.gateway-left li span.gate-yandex,ul.gateway-right li span.gate-qiwi,ul.gateway-left li span.gate-qiwi,ul.gateway-right li span.gate-litecoin,ul.gateway-left li span.gate-litecoin,ul.gateway-right li span.gate-liqpay,ul.gateway-left li span.gate-liqpay,ul.gateway-right li span.gate-btce,ul.gateway-left li span.gate-btce,ul.gateway-right li span.gate-okpay,ul.gateway-left li span.gate-okpay,
+ul.gateway-right li span.gate-PerfectMoney,ul.gateway-left li span.gate-PerfectMoney,
+ul.gateway-right li span.gate-Payza,ul.gateway-left li span.gate-Payza,
+ul.gateway-right li span.gate-PayPal,ul.gateway-left li span.gate-PayPal,
+ul.gateway-right li span.gate-wiretransfer,ul.gateway-left li span.gate-wiretransfer,
+ul.gateway-right li span.gate-xpressmoney,ul.gateway-left li span.gate-xpressmoney,
+ul.gateway-right li span.gate-moneygram,ul.gateway-left li span.gate-moneygram,
+ul.gateway-right li span.gate-westernunion,ul.gateway-left li span.gate-westernunion,
+ul.gateway-right li span.gate-Skrill,ul.gateway-left li span.gate-Skrill,
+ul.gateway-right li span.gate-Neteller,ul.gateway-left li span.gate-Neteller,
+ul.gateway-right li span.gate-CashU,ul.gateway-left li span.gate-CashU,
+ul.gateway-right li span.gate-OneCard,ul.gateway-left li span.gate-OneCard,
+ul.gateway-right li span.gate-SolidTrustPay,ul.gateway-left li span.gate-SolidTrustPay,
+ul.gateway-right li span.gate-webmoney,ul.gateway-left li span.gate-webmoney,
+ul.gateway-right li span.gate-EgoPay,ul.gateway-left li span.gate-EgoPay,
+ul.gateway-right li span.gate-ukash,ul.gateway-left li span.gate-ukash,
+ul.gateway-right li span.gate-ukash,ul.gateway-left li span.gate-liqpay,
+ul.gateway-right li span.gate-ukash,ul.gateway-left li span.gate-bitcoin,
+
+ul.gateway-right li span.gate-visa,ul.gateway-left li span.gate-visa{background-repeat:no-repeat;background-position:0 4px;padding:0 0 0 25px;height:25px;display:inline-block;font-weight:normal;z-index:9999;}
+
+#currency-reserve span.gate-alfa,#currency-reserve span.gate-alfabank,#currency-reserve span.gate-egopay,#currency-reserve span.gate-rubank,#currency-reserve span.gate-wire,#currency-reserve span.gate-perfectmoney,#currency-reserve span.gate-bitcoin,#currency-reserve span.gate-yandex,#currency-reserve span.gate-qiwi,#currency-reserve span.gate-litecoin,#currency-reserve span.gate-liqpay,#currency-reserve span.gate-btce,
+#currency-reserve span.gate-PerfectMoney,#currency-reserve span.gate-Payza,#currency-reserve span.gate-PayPal,#currency-reserve span.gate-wiretransfer,#currency-reserve span.gate-xpressmoney,#currency-reserve span.gate-moneygram,#currency-reserve span.gate-westernunion,#currency-reserve span.gate-Skrill,#currency-reserve span.gate-Neteller,
+#currency-reserve span.gate-CashU,#currency-reserve span.gate-OneCard,#currency-reserve span.gate-SolidTrustPay,#currency-reserve span.gate-webmoney,#currency-reserve span.gate-EgoPay,
+#currency-reserve span.gate-ukash,#currency-reserve span.gate-bitcoin,#currency-reserve span.gate-liqpay,
+#currency-reserve span.gate-okpay,#currency-reserve span.gate-visa{background-repeat:no-repeat;padding:0 0 0 25px;display:inline-block;font-weight:normal;min-height:21px;margin:0;overflow:visible;width:50px;z-index:9999;}
+#currency-reserve span.rubank{width:76px;}
+#currency-reserve span.gate-okpay,ul.gateway-right li span.gate-okpay,ul.gateway-left li span.gate-okpay{background-image:url('../img/i/okpay.png');}
+#currency-reserve span.gate-PerfectMoney,ul.gateway-right li span.gate-PerfectMoney,ul.gateway-left li span.gate-PerfectMoney{background-image:url('../img/i/perfectmoney.png');}
+#currency-reserve span.gate-Payza,ul.gateway-right li span.gate-Payza,ul.gateway-left li span.gate-Payza{background-image:url('../img/i/Payza.png');}
+#currency-reserve span.gate-PayPal,ul.gateway-right li span.gate-PayPal,ul.gateway-left li span.gate-PayPal{background-image:url('../img/i/PayPal.png');}
+#currency-reserve span.gate-wiretransfer,ul.gateway-right li span.gate-wiretransfer,ul.gateway-left li span.gate-wiretransfer{background-image:url('../img/i/wiretransfer.png');}
+#currency-reserve span.gate-xpressmoney,ul.gateway-right li span.gate-xpressmoney,ul.gateway-left li span.gate-xpressmoney{background-image:url('../img/i/xpressmoney.png');}
+#currency-reserve span.gate-moneygram,ul.gateway-right li span.gate-moneygram,ul.gateway-left li span.gate-moneygram{background-image:url('../img/i/moneygram.png');}
+#currency-reserve span.gate-westernunion,ul.gateway-right li span.gate-westernunion,ul.gateway-left li span.gate-westernunion{background-image:url('../img/i/westernunion.png');}
+#currency-reserve span.gate-Skrill,ul.gateway-right li span.gate-Skrill,ul.gateway-left li span.gate-Skrill{background-image:url('../img/i/Skrill.png');}
+#currency-reserve span.gate-Neteller,ul.gateway-right li span.gate-Neteller,ul.gateway-left li span.gate-Neteller{background-image:url('../img/i/Neteller.png');}
+#currency-reserve span.gate-CashU,ul.gateway-right li span.gate-CashU,ul.gateway-left li span.gate-CashU{background-image:url('../img/i/CashU.png');}
+#currency-reserve span.gate-OneCard,ul.gateway-right li span.gate-OneCard,ul.gateway-left li span.gate-OneCard{background-image:url('../img/i/OneCard.png');}
+#currency-reserve span.gate-SolidTrustPay,ul.gateway-right li span.gate-SolidTrustPay,ul.gateway-left li span.gate-SolidTrustPay{background-image:url('../img/i/SolidTrustPay.png');}
+#currency-reserve span.gate-webmoney,ul.gateway-right li span.gate-webmoney,ul.gateway-left li span.gate-webmoney{background-image:url('../img/i/webmoney.png');}
+#currency-reserve span.gate-EgoPay,ul.gateway-right li span.gate-EgoPay,ul.gateway-left li span.gate-EgoPay{background-image:url('../img/i/egopay.png');}
+#currency-reserve span.gate-ukash,ul.gateway-right li span.gate-ukash,ul.gateway-left li span.gate-ukash{background-image:url('../img/i/ukash.png');}
+#currency-reserve span.gate-bitcoin,ul.gateway-right li span.gate-bitcoin,ul.gateway-left li span.gate-bitcoin{background-image:url('../img/i/bitcoin.png');}
+#currency-reserve span.gate-liqpay,ul.gateway-right li span.gate-liqpay,ul.gateway-left li span.gate-liqpay{background-image:url('../img/i/liqpay.png');}
+
+
+.btn-purb {
+  color: #fff;
+   background-color: #428bca;
+  border-color: #745d8c;
+  
+}
+
+.btn-purb:hover,
+.btn-purb:focus,
+.btn-purb:active,
+.btn-purb.active,
+.open .dropdown-toggle.btn-purb {
+	color: #fff;
+ background-color: #745d8c;
+  border-color: #428bca;
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  color:#fff;
+}
+
+
+.nav-justified > li > a {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #745d8c;
+  background-color: #e0c1ff; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #428bca 0%, #745d8c 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#428bca), color-stop(100%,#745d8c)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #428bca 0%,#745d8c 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -o-linear-gradient(top, #428bca 0%,#745d8c 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428bca', endColorstr='#745d8c',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #428bca 0%,#745d8c 100%); /* W3C */
+}
+
+.nav-justified > li > a.login {
+  background-image: -moz-linear-gradient(top, #5cb85c 0%, #47a447 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5cb85c), color-stop(100%,#47a447)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #5cb85c 0%,#47a447 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -o-linear-gradient(top, #5cb85c 0%,#47a447 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cb85c', endColorstr='#47a447',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #5cb85c 0%,#47a447 100%); /* W3C */
+}
+
+.nav-justified > li > a.login:hover,
+.nav-justified > li.active > a.login,
+.nav-justified > li > a.login:focus {
+  background-color: #5cb85c;
+}
+
+
+.nav-justified > li > a:hover,
+.nav-justified > li.active > a,
+.nav-justified > li > a:focus {
+  background-color: #428bca;
+  background-image: none;
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #d5d5d5;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-radius: 0 5px 5px 0;
+    border-right: 0;
+  }
+}
+
+
+.panel-purb {
+  border-color: #ddd;
+}
+
+.panel-purb > .panel-heading {
+  color: #428bca;
+  background-color: #e0c1ff;
+  border-color: #ddd;
+}
+
+.panel-purb > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #ddd;
+}
+
+.panel-purb > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ddd;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.colorgraph2 {
+  height: 5px;
+  margin-top:-0px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #428bca 62.5%, #428bca 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.form-control:focus {
+  border-color: #428bca;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 139, 202, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 139, 202, 0.6);
+}
+
+.amouunt-control {
+    border-color: #428bca;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 139, 202, 0.6);
+          box-shadow: inset 2px 2px 0px rgba(0, 0, 0, .2), 1px 2px 2px rgba(143, 111, 192, 1);
+		  
+  line-height: 1;
+}
+
+.amount-purb {
+  border:none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+   text-align:center;
+   color:#333;
+   width:40px;
+   height:25px;	
+   margin-right:6px;
+   
+  
+}
+
+
+.amount-purb:hover,
+.amount-purb:focus,
+.amount-purb:active,
+.amount-purb.active {
+  background-color: #fff;
+
+}
+
+
+
+.hero-widget { text-align: center; padding-top: 20px; padding-bottom: 20px; }
+.hero-widget .icon { display: block; font-size: 96px; line-height: 96px; margin-bottom: 10px; text-align: center; }
+.hero-widget var { display: block; height: 90px; font-size: 25px; line-height: 90px; font-style: normal; }
+.hero-widget vars { display: block; height: 90px; font-size: 50px; line-height: 90px; font-style: normal; }
+.hero-widget label { font-size: 17px; }
+
+.alert2 {
+  padding: 0px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+h2{
+
+color:#fff;
+
+}
+
+.ordernow{
+display: inline-block;
+float:right;
+margin-top:5px;
+margin-right:5px;
+height:25px;
+padding-top: 2px;
+width:66px;
+}
+
+
+.btn-bitcoin {
+  color: #fff;
+   background-color: #d6ac59;
+  
+}
+
+.btn-bitcoin:hover,
+.btn-bitcoin:focus,
+.btn-bitcoin:active,
+.btn-bitcoin.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-liqpay {
+  color: #fff;
+   background-color: #63a900;
+  
+}
+
+.btn-liqpay:hover,
+.btn-liqpay:focus,
+.btn-liqpay:active,
+.btn-liqpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-ukash {
+  color: #fff;
+   background-color: #a4181d;
+  
+}
+
+.btn-ukash:hover,
+.btn-ukash:focus,
+.btn-ukash:active,
+.btn-ukash.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-solidtrustpay {
+  color: #fff;
+   background-color: #46698e;
+  
+}
+
+.btn-solidtrustpay:hover,
+.btn-solidtrustpay:focus,
+.btn-solidtrustpay:active,
+.btn-solidtrustpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-onecard {
+  color: #fff;
+   background-color: #004c7b;
+  
+}
+
+.btn-onecard:hover,
+.btn-onecard:focus,
+.btn-onecard:active,
+.btn-onecard.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-cashu {
+  color: #fff;
+   background-color: #e9510e;
+  
+}
+
+.btn-cashu:hover,
+.btn-cashu:focus,
+.btn-cashu:active,
+.btn-cashu.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-neteller {
+  color: #fff;
+   background-color: #6a9439;
+  
+}
+
+.btn-neteller:hover,
+.btn-neteller:focus,
+.btn-neteller:active,
+.btn-neteller.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+
+.btn-skrill {
+  color: #fff;
+   background-color: #852064;
+  
+}
+
+.btn-skrill:hover,
+.btn-skrill:focus,
+.btn-skrill:active,
+.btn-skrill.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-paypal {
+  color: #fff;
+   background-color: #00335e;
+  
+}
+
+.btn-paypal:hover,
+.btn-paypal:focus,
+.btn-paypal:active,
+.btn-paypal.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-wiretransfer {
+  color: #fff;
+   background-color: #3c60a7;
+  
+}
+
+.btn-wiretransfer:hover,
+.btn-wiretransfer:focus,
+.btn-wiretransfer:active,
+.btn-wiretransfer.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-xpressmoney {
+  color: #fff;
+   background-color: #bf2e1b;
+  
+}
+
+.btn-xpressmoney:hover,
+.btn-xpressmoney:focus,
+.btn-xpressmoney:active,
+.btn-xpressmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-moneygram {
+  color: #fff;
+   background-color: #ee2c23;
+  
+}
+
+.btn-moneygram:hover,
+.btn-moneygram:focus,
+.btn-moneygram:active,
+.btn-moneygram.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-westernunion {
+  color: #fff;
+   background-color: #ffdd00;
+  
+}
+
+.btn-westernunion:hover,
+.btn-westernunion:focus,
+.btn-westernunion:active,
+.btn-westernunion.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.btn-payza {
+  color: #fff;
+   background-color: #43a22e;
+  
+}
+
+.btn-payza:hover,
+.btn-payza:focus,
+.btn-payza:active,
+.btn-payza.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-perfectmoney {
+  color: #fff;
+   background-color: #eb2d2d  ;
+  
+}
+
+.btn-perfectmoney:hover,
+.btn-perfectmoney:focus,
+.btn-perfectmoney:active,
+.btn-perfectmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-okpay {
+  color: #fff;
+   background-color: #f9ba14;
+  
+}
+
+.btn-okpay:hover,
+.btn-okpay:focus,
+.btn-okpay:active,
+.btn-okpay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-egopay {
+  color: #fff;
+   background-color: #ee9f12;
+  
+}
+
+.btn-egopay:hover,
+.btn-egopay:focus,
+.btn-egopay:active,
+.btn-egopay.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.btn-webmoney {
+  color: #fff;
+   background-color: #428dd2;
+  
+}
+
+.btn-webmoney:hover,
+.btn-webmoney:focus,
+.btn-webmoney:active,
+.btn-webmoney.active,
+.open .dropdown-toggle.btn-purb {
+  color: #fff;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.modal-body2 {
+  position: relative;
+  padding: 2px;
+}
+
+.modal-footer2 {
+   padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.modal-header2 {
+  min-height: 16.428571429px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.glyphicon-ukash{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/ukash.png');}
+
+.glyphicon-skrill{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/skrill.png');}
+
+.glyphicon-onecard{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/onecard.png');}
+
+.glyphicon-payza{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/payza.png');}
+
+.glyphicon-solidtrustpay{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/solidtrustpay.png');}
+
+.glyphicon-webmoney{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/webmoney.png');}
+
+.glyphicon-paypal{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/paypal.png');}
+
+.glyphicon-wiretransfer{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/wiretransfer.png');}
+
+.glyphicon-xpressmoney{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/xpressmoney.png');}
+
+.glyphicon-moneygram{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/moneygram.png');}
+
+.glyphicon-westernunion{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/westernunion.png');}
+
+.glyphicon-liqpay{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/liqpay.png');}
+
+.glyphicon-okpay{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/okpay.png');}
+
+.glyphicon-cashu{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/cashu.png');}
+
+.glyphicon-neteller{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/neteller.png');}
+
+
+.glyphicon-bitcoin{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/bitcoin.png');}
+
+.glyphicon-egopay{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/egopay.png');}
+
+
+.glyphicon-perfectmoney{
+background-repeat:no-repeat;background-position:120px 16px;padding-right:100px;height:100px;display:inline-block;font-weight:normal;z-index:9999;
+background-image:url('../img/i-bg/perfectmoney.png');}
+
+
+.form-control2 {
+  display: block;
+  width: 115px;
+  height: 66px;
+  padding: 5px 5px;
+  font-size: 40px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  top:16px;
+  position:relative;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+		  
+}
+
+.form-control2:focus {
+  border-color: #ccc;
+  outline: 0;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 1), 0 0 10px rgba(143, 111, 175, 1);
+          box-shadow: inset 0 0px 0px rgba(0, 0, 0, 1), 0 0 10px rgba(143, 111, 175, 1);
+}
+
+.form-control2:-moz-placeholder {
+  color: #999999;
+}
+
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.form-control2:-ms-input-placeholder {
+  color: #999999;
+}
+
+.form-control2::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.panelx {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.amouunt-controlx {
+    border-color: #428bca;
+	width:50px;
+	height:50px;
+	border:2px solid #cccccc;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(235, 45, 45, 0.6);
+          box-shadow: inset 2px 2px 20px rgba(0, 0, 0, .25);
+  line-height: 1;
+}
+
+.amount-purbx {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+   text-align:center;
+   color:#333;
+   margin-right:6px;
+   margin-left:2px;
+   
+  
+}
+
+.incontrol{
+	font-size:15px;
+
+}
+
+
+
+
+li{
+    list-style:none;
+    }
+  
+.features-table li {
+    background: #db5656 none repeat scroll 0 0;
+    border-bottom: 2px solid #cf4545;
+    color: #f1f1f1;
+    font-size: 16px;
+    padding: 15px 24px;
+}
+.features-table li:hover{
+	background:  #cf4545;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.features-table-free li, .features-table-paid li {
+    background: #efefef none repeat scroll 0 0;
+    border-bottom: 2px solid #d4d4d4;
+	text-align:center;
+    padding: 13.5px 24px;
+}
+.features-table-free h1, .features-table-paid h1 {
+    text-align: center;
+}
+.features-table-free li:hover, .features-table-paid li:hover {
+    background: #dedede none repeat scroll 0 0;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.features_table h1 {
+    font-size: 18px !important;
+}
+.features-table h1, .features-table-free h1, .features-table-paid h1 {
+    background: #6b6b6b none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 19px 21px;
+    text-transform: uppercase;
+}
+.features-table h1 {
+    border-top-left-radius: 20px;
+	text-align:center;
+}
+.features-table-paid h1 {
+    border-top-right-radius: 20px;
+}
+.features-table-free li {
+    border-right: 2px solid #d4d4d4;
+}
+
+.fa.fa-check {
+    color: #2cc14f;
+}
+.fa.fa-times {
+    color: #BA5340;
+}
+.fa{
+	font-size:30px;
+}
+.no-padding{
+	padding:0;
+}
+ul{
+	padding:0;
+}
+	
+	
+	
+	button.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}
+
+button.btn-default:before {
+  border-color: #757575 #757575 #757575 transparent;
+    }
+    button.btn-default:after {
+  border-color: #757575 transparent #757575 #757575;
+    }
+    
+    
+    
+    button.btn-primary:before {
+  border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+    }
+    button.btn-primary:after {
+  border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+    }
+    
+    
+    button.btn-success:before {
+  border-color: #398439 #398439 #398439 transparent;
+    }
+    button.btn-success:after {
+  border-color: #398439 transparent #398439 #398439;
+    }
+    
+    
+    button.btn-info:before {
+  border-color: #269abc #269abc #269abc transparent;
+    }
+    button.btn-info:after {
+  border-color: #269abc transparent #269abc #269abc;
+    }
+    
+    
+    button.btn-warning:before {
+  border-color: #d58512 #d58512 #d58512 transparent;
+    }
+    button.btn-warning:after {
+  border-color: #d58512 transparent #d58512 #d58512;
+    }
+    
+    
+    button.btn-danger:before {
+  border-color: #ac2925 #ac2925 #ac2925 transparent;
+    }
+    button.btn-danger:after {
+  border-color: #ac2925 transparent #ac2925 #ac2925;
+    }
+    
+    
+	
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle a {
+ background-color: #D3D3D3;   
+}
+
+.bar {
+    height: 18px;
+    background: green;
+}
